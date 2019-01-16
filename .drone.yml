@@ -15,6 +15,6 @@ steps:
     azpassword:
       from_secret: azpassword
   commands:
-  - az login --service-principal --username=$azusername --password=$azpassword --tenant=$aztenant
+  - az login --service-principal --username $azusername --password $azpassword --tenant $aztenant
   - terraform init
   - terraform apply -auto-approve
