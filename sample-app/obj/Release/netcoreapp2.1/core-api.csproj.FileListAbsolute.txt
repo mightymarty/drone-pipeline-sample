@@ -1,0 +1,14 @@
+C:\Users\morganme\github\infrastructure-automation\sample-app\bin\Release\netcoreapp2.1\core-api.deps.json
+C:\Users\morganme\github\infrastructure-automation\sample-app\bin\Release\netcoreapp2.1\core-api.runtimeconfig.json
+C:\Users\morganme\github\infrastructure-automation\sample-app\bin\Release\netcoreapp2.1\core-api.runtimeconfig.dev.json
+C:\Users\morganme\github\infrastructure-automation\sample-app\bin\Release\netcoreapp2.1\core-api.dll
+C:\Users\morganme\github\infrastructure-automation\sample-app\bin\Release\netcoreapp2.1\core-api.pdb
+C:\Users\morganme\github\infrastructure-automation\sample-app\obj\Release\netcoreapp2.1\core-api.csprojAssemblyReference.cache
+C:\Users\morganme\github\infrastructure-automation\sample-app\obj\Release\netcoreapp2.1\core-api.csproj.CoreCompileInputs.cache
+C:\Users\morganme\github\infrastructure-automation\sample-app\obj\Release\netcoreapp2.1\core-api.RazorAssemblyInfo.cache
+C:\Users\morganme\github\infrastructure-automation\sample-app\obj\Release\netcoreapp2.1\core-api.RazorAssemblyInfo.cs
+C:\Users\morganme\github\infrastructure-automation\sample-app\obj\Release\netcoreapp2.1\core-api.AssemblyInfoInputs.cache
+C:\Users\morganme\github\infrastructure-automation\sample-app\obj\Release\netcoreapp2.1\core-api.AssemblyInfo.cs
+C:\Users\morganme\github\infrastructure-automation\sample-app\obj\Release\netcoreapp2.1\core-api.RazorTargetAssemblyInfo.cache
+C:\Users\morganme\github\infrastructure-automation\sample-app\obj\Release\netcoreapp2.1\core-api.dll
+C:\Users\morganme\github\infrastructure-automation\sample-app\obj\Release\netcoreapp2.1\core-api.pdb

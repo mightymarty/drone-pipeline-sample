@@ -1,0 +1,20 @@
+kind: pipeline
+name: sample-drone-pipeline
+
+steps:
+- name: build
+  image: microsoft/dotnet
+  commands:
+  - dotnet build ./sample-app/
+
+- name: infrastructure
+  image: hashicorp/terraform:full
+  environment:
+    azusername:
+      from_secret: azusername
+    azpassword:
+      from_secret: azpassword
+  commands:
+  - az login -u $azusername -p $azpassword
+  - terraform init
+  - terraform apply -auto-approve
