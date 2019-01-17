@@ -17,4 +17,4 @@ steps:
   commands:
   - az login --service-principal --username $azusername --password $azpassword --tenant 2076a2b7-809d-4f17-b222-d88effb0cefb
   - terraform init "./terraform"
-  - terraform apply -auto-approve "./terraform" -var 'ARM_CLIENT_ID=$ARM_CLIENT_ID' -var 'ARM_CLIENT_SECRET=$ARM_CLIENT_SECRET' -var 'ARM_SUBSCRIPTION_ID=$ARM_SUBSCRIPTION_ID' -var 'ARM_TENANT_ID=$ARM_TENANT_ID'
+  - terraform apply -auto-approve -var 'ARM_CLIENT_ID=$ARM_CLIENT_ID' -var 'ARM_CLIENT_SECRET=$ARM_CLIENT_SECRET' -var 'ARM_SUBSCRIPTION_ID=$ARM_SUBSCRIPTION_ID' -var 'ARM_TENANT_ID=$ARM_TENANT_ID' "./terraform"
