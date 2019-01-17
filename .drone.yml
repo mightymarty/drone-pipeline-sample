@@ -1,10 +1,6 @@
 kind: pipeline
 name: sample-drone-pipeline
 
-platform:
-  os: windows
-  arch: amd64
-
 steps:
 - name: build
   image: microsoft/dotnet
