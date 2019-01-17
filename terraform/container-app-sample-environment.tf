@@ -3,10 +3,10 @@ provider "azurerm" {
   # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider
   version = "=1.21.0"
 
-  subscription_id = $ARM_SUBSCRIPTION_ID
-  client_id       = $ARM_CLIENT_ID
-  client_secret   = $ARM_CLIENT_SECRET
-  tenant_id       = $ARM_TENANT_ID
+  subscription_id = "$ARM_SUBSCRIPTION_ID"
+  client_id       = "$ARM_CLIENT_ID"
+  client_secret   = "$ARM_CLIENT_SECRET"
+  tenant_id       = "$ARM_TENANT_ID"
 }
 
 # Create a resource group
