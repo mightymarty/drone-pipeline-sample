@@ -1,3 +1,8 @@
+variable "ARM_SUBSCRIPTION_ID" {}
+variable "ARM_CLIENT_ID" {}
+variable "ARM_CLIENT_SECRET" {}
+variable "ARM_TENANT_ID" {}
+
 # Configure the Azure Provider
 provider "azurerm" {
   # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider
